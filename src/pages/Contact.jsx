@@ -18,10 +18,14 @@ const Contact = () => {
 
   const submitEmail = (e) => {
     e.preventDefault()
+    if (document.querySelector("#bot-field").value > "") {
+      return;
+    } else {
     emailjs.sendForm("service_4vy0jz3", "template_26k1dlc","#form", "48zFfCOEC4GVRj-g1");
     setEmail("");
     setMessage("");
     setSuccess(true);
+    }
   }
 
   return (
@@ -39,8 +43,8 @@ const Contact = () => {
                       <SocialsMenu/>
 
                     <form className="flex flex-col gap-4" action="/success" id="form"
-                    name="contact" method="POST" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
-                        <input className="hidden" name="bot-field"/>
+                    name="contact" method="POST" onSubmit="submit">
+                        <input className="hidden" name="bot-field" id="bot-field"/>
                         <label htmlFor="email" className="flex flex-col gap-4">
                             <span>Email:</span>
                             <input type="email" name="email" id="email" className="text-black px-5 py-2 text-sm" value={email} onChange={(e) => setEmail(e.target.value)}/>
