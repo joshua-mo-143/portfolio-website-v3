@@ -22,7 +22,7 @@ export const projectData = [
         name: "Brochure Website",
         desc: "A website design created to act as the face of a business for introducing prospective customers to the brand.",
         stack: ['React', 'Typescript', 'TailwindCSS', 'Blender'],
-        github: "",
+        github: "https://github.com/joshua-mo-143/r3f-landingpage",
         live: "https://r3f-landingpage.vercel.app/"
     }
 
