@@ -5,7 +5,7 @@ import Home from './Home'
 import Layout from '../components/Layout'
 import Contact from './Contact'
 import Projects from './Projects'
-import Success from './success'
+import Success from './Success'
 
 const AllRoutes = () => {
   return (
