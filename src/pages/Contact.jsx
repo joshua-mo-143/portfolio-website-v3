@@ -34,7 +34,6 @@ const Contact = () => {
                 initial={{opacity: 0}}
                 animate={{opacity: 1}}
                 exit={{opacity: 0}}>
-                  {success && <h1 className="text-green-500">Sent!</h1>}
                 <h1>Contact</h1>
                 <div className="flex flex-col gap-4">
                     <p className="text-sm lg:text-lg">
@@ -58,6 +57,8 @@ const Contact = () => {
                         <button id="btn" type="submit" value="submit" className="px-5 py-2 relative bg-white text-black" onClick={submitEmail}>Submit</button>
                     </form>
                 </div>
+                {success && <h1 className="text-green-500 text-center">Sent!</h1>}
+
             </motion.div>
     </>
   )
