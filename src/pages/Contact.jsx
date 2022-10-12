@@ -2,6 +2,7 @@ import React, { useState, useEffect} from 'react'
 import { motion } from 'framer-motion'
 import emailjs from '@emailjs/browser'
 import { useNavigate } from 'react-router-dom';
+import SocialsMenu from '../components/SocialsMenu';
 
 const Contact = () => {
   let navigate = useNavigate();
@@ -35,6 +36,7 @@ const Contact = () => {
                     <p className="text-sm lg:text-lg">
                     Send a message and I'll get back to you shortly.
                       </p>
+                      <SocialsMenu/>
 
                     <form className="flex flex-col gap-4" action="/success" id="form"
                     name="contact" method="POST" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">

@@ -4,6 +4,7 @@ import Navbar from './Navbar'
 import { Canvas } from '@react-three/fiber'
 import * as THREE from 'three'
 import { Scene } from 'three'
+import SocialsMenu from './SocialsMenu'
 
 const Layout = (props) => {
     return (

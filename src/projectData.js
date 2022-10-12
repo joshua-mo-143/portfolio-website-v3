@@ -1,11 +1,11 @@
 export const projectData = [
     {
         id: 1,
-        name: "Project Management App",
-        desc: "A web app project that I created to serve as a platform for users to be able to streamline their project management by recording their own tasks and projects and collaborate with others.",
-        stack: ['React', 'MongoDB', 'Node', 'Express', 'TailwindCSS'],
-        github: "",
-        live: ""
+        name: "Fashion Community website",
+        desc: "A front-end mockup for a community website for people to post their outfits and find like minded people as well as having competitions.",
+        stack: ['React', 'SCSS'],
+        github: "https://github.com/joshua-mo-143/fitbattles-website",
+        live: "https://fitbattles-website.vercel.app/"
     },
 
     {
@@ -13,8 +13,8 @@ export const projectData = [
         name: "E-shop Design",
         desc: "An e-shop design I created using React. Has a working cart and checkout menu.",
         stack: ['React', 'SCSS'],
-        github: "",
-        live: ""
+        github: "https://github.com/joshua-mo-143/the-lemon-store",
+        live: "https://the-lemon-store.vercel.app/"
     },
 
     {
