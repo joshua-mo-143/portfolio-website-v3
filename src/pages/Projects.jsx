@@ -26,7 +26,7 @@ const showModal = (e) => {
     <div className="flex flex-col gap-4">
     <h1>Take a look at some of my recent work:</h1>
     <div className="flex flex-col gap-4">
-        {projectData.sort((a, b) => b - a).map((x) => (
+        {projectData.sort((a, b) => b.id - a.id).map((x) => (
             <div key={x.id}  className="bg-white w-full h-full text-black p-5 inline-flex flex-row justify-between">
                     <h1 className="text-lg">{x.name}</h1>
                     <span onClick={showModal} data-id={x.id} className="cursor-pointer">+</span>
