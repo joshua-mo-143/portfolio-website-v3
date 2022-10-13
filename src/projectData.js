@@ -1,6 +1,14 @@
 export const projectData = [
     {
         id: 1,
+        name: "Project Management app mockup",
+        desc: "A front end mockup for a project management app to streamline internal processes.",
+        stack: ['React', 'TailwindCSS'],
+        github: "https://github.com/joshua-mo-143/management-app-frontend",
+        live: "https://management-app-frontend.vercel.app/"
+    },
+    {
+        id: 2,
         name: "Fashion Community website",
         desc: "A front-end mockup for a community website for people to post their outfits and find like minded people as well as having competitions.",
         stack: ['React', 'SCSS'],
@@ -9,7 +17,7 @@ export const projectData = [
     },
 
     {
-        id: 2,
+        id: 3,
         name: "E-shop Design",
         desc: "An e-shop design I created using React. Has a working cart and checkout menu.",
         stack: ['React', 'SCSS'],
@@ -18,7 +26,7 @@ export const projectData = [
     },
 
     {
-        id: 3,
+        id: 4,
         name: "Brochure Website",
         desc: "A website design created to act as the face of a business for introducing prospective customers to the brand.",
         stack: ['React', 'Typescript', 'TailwindCSS', 'Blender'],
