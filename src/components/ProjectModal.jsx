@@ -20,7 +20,7 @@ const ProjectModal = ({vis, hide, id}) => vis ? ReactDOM.createPortal(
                                     <h1>{proj.name}</h1>
                                 <div className="flex flex-row gap-8 justify-center mt-5">
                                     <a href={proj.github} className="bg-white text-black active:text-blue-700 px-5 py-2 z-50">Github</a>
-                                    <a href={proj.live} className="bg-white text-black active:text-blue-700 px-5 py-2 z-50">Live</a>
+                                    {proj.live > "" ? <a href={proj.live} className="bg-white text-black active:text-blue-700 px-5 py-2 z-50">Live</a> : ""}
                                 </div>
                                 <span className="">{proj.desc}</span>
                                 <div className="flex flex-row gap-2 flex-wrap">

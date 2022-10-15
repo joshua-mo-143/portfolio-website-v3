@@ -44,5 +44,14 @@ export const projectData = [
         live: "https://powerful-jade-brown-bear.cyclic.app/"
     },
 
+    {
+        id: 6,
+        name: "CRUD Admin Panel",
+        desc: "Am app that carries out basic CRUD operations with a database and has auth.",
+        stack: ['PHP Laravel', 'React', 'InertiaJS', 'TailwindCSS'],
+        github: "https://github.com/joshua-mo-143/inertiaCRUD",
+        live: ""
+    }
+
 
 ]
