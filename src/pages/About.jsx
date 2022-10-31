@@ -24,12 +24,7 @@ const About = () => {
                         <li>Tailwind, SCSS</li>
                         <li>Node & Express</li>
                         <li>PHP Laravel</li>
-                        <li>GraphQL</li>
                         <li>SQL & MongoDB</li>
-                    </ul>
-                    <ul className="list-style-none lg:text-[1rem]">
-                        <li>Blender</li>
-                        <li>Strapi</li>
                     </ul>
                     </div>
                 </div>
