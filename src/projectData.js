@@ -1,14 +1,5 @@
 export const projectData = [
     {
-        id: 1,
-        name: "Fashion Community website",
-        desc: "A front-end mockup for a community website for people to post their outfits and find like minded people as well as having competitions.",
-        stack: ['React', 'SCSS'],
-        github: "https://github.com/joshua-mo-143/fitbattles-website",
-        live: "https://fitbattles-website.vercel.app/"
-    },
-
-    {
         id: 2,
         name: "E-shop Design",
         desc: "An e-shop design I created using React. Has a working cart and checkout menu.",
@@ -47,11 +38,17 @@ export const projectData = [
     {
         id: 6,
         name: "CRUD Admin Panel",
-        desc: "Am app that carries out basic CRUD operations with a database and has auth.",
+        desc: "An app that carries out basic CRUD operations with a database and has auth.",
         stack: ['PHP Laravel', 'React', 'InertiaJS', 'TailwindCSS'],
         github: "https://github.com/joshua-mo-143/inertiaCRUD",
         live: ""
+    },
+    {
+        id: 7,
+        name: "TailwindCSS Form Builder",
+        desc: "A web app designed to be able to speed up dev workflow by quickly generating a form that uses TailwindCSS.",
+        stack: ['React', 'Typescript', 'TailwindCSS'],
+        github: "https://github.com/joshua-mo-143/tailwind-form-builder",
+        live: "https://tailwind-form-builder.vercel.app/"
     }
-
-
 ]
