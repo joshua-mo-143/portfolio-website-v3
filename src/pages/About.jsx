@@ -12,7 +12,8 @@ const About = () => {
                 <h1>About</h1>
                 <div className="flex flex-col gap-4">
                     <p className="text-sm lg:text-lg">
-                    I'm a web developer who aims to add value by creating a beautiful website that represents your business while increasing customer conversions, leading to more sales.
+                    I'm a web developer who aims to add value by creating digital solutions that comprehensively cover
+                    business needs while using elegant design and clean, high quality tested code.
                     </p>
                     <hr/>
                     <p>My skills:</p>
