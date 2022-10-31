@@ -23,7 +23,6 @@
     "@react-three/drei": "^9.34.3",
     "@react-three/fiber": "^8.8.9",
     "chai": "^4.3.6",
-    "cypress": "^10.10.0",
     "framer-motion": "^7.5.3",
     "ignore-styles": "^5.0.1",
     "jsdom": "^20.0.1",
